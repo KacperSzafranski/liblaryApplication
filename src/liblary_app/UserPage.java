@@ -9,11 +9,11 @@ import java.sql.SQLException;
 
 public class UserPage extends JFrame {
     
-    private Container kontener = this.getContentPane();
-    private JPanel panelMenu = new JPanel();
-    private AdminPage.MenuButton menu1 = new AdminPage.MenuButton("Show Books");
-    private AdminPage.MenuButton menu2 = new AdminPage.MenuButton("Issue Book");
-    private AdminPage.MenuButton menu3 = new AdminPage.MenuButton("Return Book");
+    private final Container kontener = this.getContentPane();
+    private final JPanel panelMenu = new JPanel();
+    private final AdminPage.MenuButton menu1 = new AdminPage.MenuButton("Show Books");
+    private final AdminPage.MenuButton menu2 = new AdminPage.MenuButton("Issue Book");
+    private final AdminPage.MenuButton menu3 = new AdminPage.MenuButton("Return Book");
     //String is = Main.logInUser;
     
      public UserPage()

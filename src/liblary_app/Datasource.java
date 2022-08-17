@@ -8,15 +8,8 @@ import java.sql.*;
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
-import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
-//import javax.swing.JFrame;
-//import javax.swing.JLabel;
-//import javax.swing.JPanel;
-//import javax.swing.JScrollPane;
-//import javax.swing.JTable;
-//import javax.swing.table.DefaultTableCellRenderer;
-//import javax.swing.table.DefaultTableModel;
+
 
 public class Datasource {
     
@@ -149,9 +142,6 @@ public class Datasource {
             if(returnBook != null){
                 returnBook.close();
             }
-          //  if(queryUserBooks != null){
-          //      queryUserBooks.close();
-          //  }
             
             if(conn != null) {
                 conn.close();

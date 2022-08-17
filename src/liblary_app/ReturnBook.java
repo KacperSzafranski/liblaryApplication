@@ -34,8 +34,6 @@ public class ReturnBook extends JFrame {
         this.setTitle("Return Book");
         int szer = Toolkit.getDefaultToolkit().getScreenSize().width; 
         int wys = Toolkit.getDefaultToolkit().getScreenSize().height; 
-        //this.setSize(szer/4, wys/4);
-//        this.setLocation(szer/4, wys/4);
         int szerRamki = this.getSize().width;
         int wysRamki = this.getSize().height;
         this.setLocation((szer-szerRamki)/2, (wys-wysRamki)/2);

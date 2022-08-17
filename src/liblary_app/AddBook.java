@@ -10,7 +10,6 @@ import static javax.swing.GroupLayout.Alignment.BASELINE;
 import static javax.swing.GroupLayout.Alignment.LEADING;
 import java.awt.event.ActionEvent;
 import java.sql.SQLException;
-import java.awt.event.KeyListener;
 
 
 public class AddBook extends JFrame {
@@ -33,8 +32,6 @@ public class AddBook extends JFrame {
         this.setTitle("AdminPage");
         int szer = Toolkit.getDefaultToolkit().getScreenSize().width; 
         int wys = Toolkit.getDefaultToolkit().getScreenSize().height; 
-        //this.setSize(szer/4, wys/4);
-//        this.setLocation(szer/4, wys/4);
         int szerRamki = this.getSize().width;
         int wysRamki = this.getSize().height;
         this.setLocation((szer-szerRamki)/2, (wys-wysRamki)/2);

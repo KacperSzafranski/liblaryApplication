@@ -8,17 +8,16 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
-import java.util.List;
 
 public class AdminPage extends JFrame {
     
-    private Container kontener = this.getContentPane();
-    private JPanel panelMenu = new JPanel();
-    private MenuButton menu1 = new MenuButton("Add User");
-    private MenuButton menu2 = new MenuButton("Add Book");
-    private MenuButton menu3 = new MenuButton("Show Users");
-    private MenuButton menu4 = new MenuButton("Show Books");
-    private MenuButton menu5 = new MenuButton("Show Issues");
+    private final Container kontener = this.getContentPane();
+    private final JPanel panelMenu = new JPanel();
+    private final MenuButton menu1 = new MenuButton("Add User");
+    private final MenuButton menu2 = new MenuButton("Add Book");
+    private final MenuButton menu3 = new MenuButton("Show Users");
+    private final MenuButton menu4 = new MenuButton("Show Books");
+    private final MenuButton menu5 = new MenuButton("Show Issues");
     
     public AdminPage()
     {
